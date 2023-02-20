@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Capriola&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(360deg, #010749, #010C87, #010749);
+  text-align: center;
+  font-family: 'Capriola', sans-serif;
+}
+#quiz{
+  margin-top: 15%;
+}
+#quiz h1{
+  font-size: 35px;
+  font-weight: 800;
+  color: #E8BD2D;
+  text-shadow: 0 0 10px black;
+  border-bottom: 2px solid #E8BD2D;
+  border-radius: 20px;
+  width: 40%;
+  margin: auto;
+}
+#quiz h2{
+  font-size: 30px;
+  color: #fff;
+  text-shadow: 1px 1px 1px black;
+  margin-bottom: 15%;
+  margin-top: 15%;
+}
+button{
+  width: 320px;
+  padding: 15px;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 5%;
+  border-radius: 5px;
+  border: none;
+  display: block;
+}
+.resposta{
+  margin: 15px auto;
+  transition: .3s;
+}
+.resposta:hover{
+  background: #E8BD2D;
+  cursor: pointer;
+}
+.resposta.selecionada{
+  background: #010749;
+  color: #fff;
+}
+#confirma{
+  width: 330px;
+  margin: auto;
+  margin-top: 15%;
+  background: #07B41C;
+  color: #fff;
+  border-radius: 10px;
+  cursor: pointer;
+  text-transform: uppercase;
+  box-shadow: 0 0 10px #000;
+  transition: .3s;
+}
+#confirma:hover{
+  background: #047F13;
+}
+.errada{
+  background: crimson;
+  color: #fff;
+}
+.correta{
+  background: #00993F;
+  color: #fff;
+  animation: piscaCerto .5s infinite;
+}
+@keyframes piscaCerto{
+  0%,
+  49%{
+    background: #02692D;
+  }
+  50%,
+  100%{
+    background: seagreen;
+  }
+}
+.status{
+  margin-top: 10rem;
+  margin-bottom: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.status h2{
+  font-size: 30px;
+  color: #fff;
+  font-weight: 900;
+  margin-bottom: 20px;
+  text-shadow: 1px 1px 1px #000;
+}
+#novojogo{
+  background: #061AFF;
+  color: #fff;
+  margin: auto;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.oculto{
+  display: none;
+}
