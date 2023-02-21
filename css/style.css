@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Capriola&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap');
 *{
   margin: 0;
   padding: 0;
@@ -9,7 +9,7 @@ body{
   height: 100vh;
   background: linear-gradient(360deg, #010749, #010C87, #010749);
   text-align: center;
-  font-family: 'Capriola', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 #quiz{
   margin-top: 15%;
@@ -20,7 +20,7 @@ body{
   color: #E8BD2D;
   text-shadow: 0 0 10px black;
   border-bottom: 2px solid #E8BD2D;
-  border-radius: 20px;
+  border-radius: 10px;
   width: 40%;
   margin: auto;
 }
