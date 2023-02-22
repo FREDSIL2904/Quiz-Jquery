@@ -79,7 +79,7 @@ const perguntas = [
       }else{
         console.log('acabaram as perguntas.');
          $('#quiz').addClass('oculto');
-         $('#msg').html('Parabéns, você venceu, acertou todas as perguntas!<br><br> 🏅   🏅   🏅');
+         $('#msg').html('Parabéns !<br> você venceu, <br><br>acertou todas as perguntas!<br><br> 🏅   🏅   🏅');
          $('.status').removeClass('oculto');
       }
     }

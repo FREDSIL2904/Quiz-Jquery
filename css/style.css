@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
 *{
   margin: 0;
   padding: 0;
@@ -9,27 +9,29 @@ body{
   height: 100vh;
   background: linear-gradient(360deg, #010749, #010C87, #010749);
   text-align: center;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
 }
 #quiz{
-  margin-top: 15%;
+  margin-top: 10%;
 }
 #quiz h1{
   font-size: 35px;
-  font-weight: 800;
+  font-weight: 700;
   color: #E8BD2D;
   text-shadow: 0 0 10px black;
   border-bottom: 2px solid #E8BD2D;
   border-radius: 10px;
   width: 40%;
+  padding-bottom: 10px;
   margin: auto;
 }
 #quiz h2{
-  font-size: 30px;
+  font-size: 28px;
   color: #fff;
+  font-weight: 700;
   text-shadow: 1px 1px 1px black;
-  margin-bottom: 15%;
-  margin-top: 15%;
+  margin-bottom: 10%;
+  margin-top: 10%;
 }
 button{
   width: 320px;
@@ -56,7 +58,7 @@ button{
 #confirma{
   width: 330px;
   margin: auto;
-  margin-top: 15%;
+  margin-top: 10%;
   background: #07B41C;
   color: #fff;
   border-radius: 10px;
@@ -88,7 +90,7 @@ button{
   }
 }
 .status{
-  margin-top: 10rem;
+  margin-top: 5rem;
   margin-bottom: 2rem;
   display: flex;
   align-items: center;
@@ -100,8 +102,8 @@ button{
 .status h2{
   font-size: 30px;
   color: #fff;
-  font-weight: 900;
-  margin-bottom: 20px;
+  font-weight: 700;
+  margin-bottom: 10px;
   text-shadow: 1px 1px 1px #000;
 }
 #novojogo{
