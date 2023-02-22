@@ -31,7 +31,7 @@ body{
   font-weight: 700;
   text-shadow: 1px 1px 1px black;
   margin-bottom: 10%;
-  margin-top: 10%;
+  margin-top: 10px;
 }
 button{
   width: 320px;
