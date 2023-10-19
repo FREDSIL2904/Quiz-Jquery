@@ -49,6 +49,24 @@ const perguntas = [
    respostas: ["Xdreis","Xadrezis","Xadrezes","Xadressis"],
    correta: "resp2"
    },
+   // Pergunta 9
+   {pergunta: "De quem é a famosa frase “Penso, logo existo”?",
+   respostas: ["Platão","Galileu Galilei","Descartes","Sócrates"],
+   correta: "resp2"
+   },
+   {pergunta: "Quanto tempo a luz do Sol demora para chegar à Terra?",
+   respostas: ["12 minutos","8 minutos","1 dia","12 horas"],
+   correta: "resp1"
+   },
+   {pergunta: "Qual a montanha mais alta do Brasil?",
+   respostas: ["Monte Roraima","Pico da Montanha","Pico da Bandeira","Pico da Neblina"],
+   correta: "resp3"
+   },
+   {pergunta: "Quem amamentou os gêmeos Rômulo e Remo?",
+   respostas: ["uma ovelha","uma vaca","uma loba","uma cabra"],
+   correta: "resp2"
+   }
+   
   ];
   
   var qtdPerguntas = perguntas.length - 1;
